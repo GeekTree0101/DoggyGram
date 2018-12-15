@@ -1,0 +1,88 @@
+PODS:
+  - Hero (1.4.0)
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxCocoa-Texture (2.2.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+    - Texture (~> 2.7)
+  - RxOptional (3.6.2):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - Texture (2.7):
+    - Texture/PINRemoteImage (= 2.7)
+  - Texture/Core (2.7)
+  - Texture/PINRemoteImage (2.7):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Vetty (1.1.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+
+DEPENDENCIES:
+  - Hero
+  - RxCocoa
+  - RxCocoa-Texture (from `https://github.com/RxSwiftCommunity/RxCocoa-Texture.git`, branch `Texture-2.7`)
+  - RxOptional
+  - RxSwift
+  - Texture
+  - Vetty (= 1.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Hero
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - RxAtomic
+    - RxCocoa
+    - RxOptional
+    - RxSwift
+    - Texture
+    - Vetty
+
+EXTERNAL SOURCES:
+  RxCocoa-Texture:
+    :branch: Texture-2.7
+    :git: https://github.com/RxSwiftCommunity/RxCocoa-Texture.git
+
+CHECKOUT OPTIONS:
+  RxCocoa-Texture:
+    :commit: f550c3673d656773caeac9dd2967a16d9d55e419
+    :git: https://github.com/RxSwiftCommunity/RxCocoa-Texture.git
+
+SPEC CHECKSUMS:
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxCocoa-Texture: d27c090ceff52f89ed70283603d1c6fd387ef42c
+  RxOptional: 80426a0ddbd092573e4c482d8cc13302078c4d5e
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  Texture: 9d7e38965cf22ccd7cd9c249dd78b3f14e70ab6c
+  Vetty: 640475b523372e69fcef340a3dc8a6d9af522b6b
+
+PODFILE CHECKSUM: 73d03b05955aa6d53d81d78421d4fdaadf28da8d
+
+COCOAPODS: 1.5.3

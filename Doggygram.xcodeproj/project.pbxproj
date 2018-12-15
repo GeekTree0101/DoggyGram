@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B0C7F7421B3B65400D18BD4 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C7F7321B3B65400D18BD4 /* Service.swift */; };
+		9B0C7F7621B3B69600D18BD4 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C7F7521B3B69600D18BD4 /* Dog.swift */; };
+		9B0C7F7821B3B69D00D18BD4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C7F7721B3B69D00D18BD4 /* User.swift */; };
+		9B0C7F7A21B3B78F00D18BD4 /* DoggyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C7F7921B3B78F00D18BD4 /* DoggyViewModel.swift */; };
+		9B0C7F7E21B3BAB900D18BD4 /* FeedNodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C7F7D21B3BAB900D18BD4 /* FeedNodeController.swift */; };
+		9B0C7F8021B3BAC400D18BD4 /* DoggyShowNodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C7F7F21B3BAC400D18BD4 /* DoggyShowNodeController.swift */; };
+		9B0C7F8421B3BD1A00D18BD4 /* HelloDoggyCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C7F8321B3BD1A00D18BD4 /* HelloDoggyCellNode.swift */; };
+		9B0C7F8621B3BD2300D18BD4 /* DoggyCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C7F8521B3BD2300D18BD4 /* DoggyCellNode.swift */; };
+		9B0C7F8921B3D13900D18BD4 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C7F8821B3D13900D18BD4 /* UIImage+Extension.swift */; };
+		9B0C7F8B21B3D3CC00D18BD4 /* LoadingIndicatorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C7F8A21B3D3CC00D18BD4 /* LoadingIndicatorNode.swift */; };
+		9B0D47E221C4B76400F39C94 /* ASDisplayNode+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0D47E121C4B76400F39C94 /* ASDisplayNode+Extension.swift */; };
+		9B16AC9921B3B17F003D1B1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16AC9821B3B17F003D1B1F /* AppDelegate.swift */; };
+		9B16AC9B21B3B17F003D1B1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B16AC9A21B3B17F003D1B1F /* ViewController.swift */; };
+		9B16ACA021B3B181003D1B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B16AC9F21B3B181003D1B1F /* Assets.xcassets */; };
+		9B16ACA321B3B181003D1B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B16ACA121B3B181003D1B1F /* LaunchScreen.storyboard */; };
+		9B16ACB021B3B27D003D1B1F /* feed.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B16ACAF21B3B27D003D1B1F /* feed.json */; };
+		CAA941D05B71D35E7BDCA8DC /* Pods_Doggygram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75868B164BF7113904689609 /* Pods_Doggygram.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		115888A530693164612C3FFB /* Pods-Doggygram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doggygram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Doggygram/Pods-Doggygram.debug.xcconfig"; sourceTree = "<group>"; };
+		75868B164BF7113904689609 /* Pods_Doggygram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Doggygram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0C7F7321B3B65400D18BD4 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		9B0C7F7521B3B69600D18BD4 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		9B0C7F7721B3B69D00D18BD4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9B0C7F7921B3B78F00D18BD4 /* DoggyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggyViewModel.swift; sourceTree = "<group>"; };
+		9B0C7F7D21B3BAB900D18BD4 /* FeedNodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedNodeController.swift; sourceTree = "<group>"; };
+		9B0C7F7F21B3BAC400D18BD4 /* DoggyShowNodeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggyShowNodeController.swift; sourceTree = "<group>"; };
+		9B0C7F8321B3BD1A00D18BD4 /* HelloDoggyCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloDoggyCellNode.swift; sourceTree = "<group>"; };
+		9B0C7F8521B3BD2300D18BD4 /* DoggyCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoggyCellNode.swift; sourceTree = "<group>"; };
+		9B0C7F8821B3D13900D18BD4 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		9B0C7F8A21B3D3CC00D18BD4 /* LoadingIndicatorNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorNode.swift; sourceTree = "<group>"; };
+		9B0D47E121C4B76400F39C94 /* ASDisplayNode+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ASDisplayNode+Extension.swift"; sourceTree = "<group>"; };
+		9B16AC9521B3B17F003D1B1F /* Doggygram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doggygram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B16AC9821B3B17F003D1B1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B16AC9A21B3B17F003D1B1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B16AC9F21B3B181003D1B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B16ACA221B3B181003D1B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B16ACA421B3B181003D1B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B16ACAF21B3B27D003D1B1F /* feed.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = feed.json; sourceTree = "<group>"; };
+		F1DF6AF030C42CB9DE579ACA /* Pods-Doggygram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Doggygram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Doggygram/Pods-Doggygram.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B16AC9221B3B17F003D1B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA941D05B71D35E7BDCA8DC /* Pods_Doggygram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B0C7F7221B3B64600D18BD4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C7F7321B3B65400D18BD4 /* Service.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9B0C7F8721B3D12E00D18BD4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C7F8821B3D13900D18BD4 /* UIImage+Extension.swift */,
+				9B0D47E121C4B76400F39C94 /* ASDisplayNode+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9B16AC8C21B3B17F003D1B1F = {
+			isa = PBXGroup;
+			children = (
+				9B16AC9721B3B17F003D1B1F /* Doggygram */,
+				9B16AC9621B3B17F003D1B1F /* Products */,
+				FAED7D3DCB4564D8332A9A54 /* Pods */,
+				F510C0E7713105AB9C6FBF3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B16AC9621B3B17F003D1B1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B16AC9521B3B17F003D1B1F /* Doggygram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B16AC9721B3B17F003D1B1F /* Doggygram */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C7F8721B3D12E00D18BD4 /* Extensions */,
+				9B0C7F7221B3B64600D18BD4 /* Services */,
+				9B16ACAE21B3B25C003D1B1F /* ViewModels */,
+				9B16ACAD21B3B251003D1B1F /* Seeds */,
+				9B16ACAC21B3B24B003D1B1F /* Views */,
+				9B16ACAB21B3B246003D1B1F /* Models */,
+				9B16ACAA21B3B240003D1B1F /* Controllers */,
+				9B16AC9821B3B17F003D1B1F /* AppDelegate.swift */,
+				9B16AC9A21B3B17F003D1B1F /* ViewController.swift */,
+				9B16AC9F21B3B181003D1B1F /* Assets.xcassets */,
+				9B16ACA121B3B181003D1B1F /* LaunchScreen.storyboard */,
+				9B16ACA421B3B181003D1B1F /* Info.plist */,
+			);
+			path = Doggygram;
+			sourceTree = "<group>";
+		};
+		9B16ACAA21B3B240003D1B1F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C7F7D21B3BAB900D18BD4 /* FeedNodeController.swift */,
+				9B0C7F7F21B3BAC400D18BD4 /* DoggyShowNodeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9B16ACAB21B3B246003D1B1F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C7F7521B3B69600D18BD4 /* Dog.swift */,
+				9B0C7F7721B3B69D00D18BD4 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9B16ACAC21B3B24B003D1B1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C7F8321B3BD1A00D18BD4 /* HelloDoggyCellNode.swift */,
+				9B0C7F8521B3BD2300D18BD4 /* DoggyCellNode.swift */,
+				9B0C7F8A21B3D3CC00D18BD4 /* LoadingIndicatorNode.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B16ACAD21B3B251003D1B1F /* Seeds */ = {
+			isa = PBXGroup;
+			children = (
+				9B16ACAF21B3B27D003D1B1F /* feed.json */,
+			);
+			path = Seeds;
+			sourceTree = "<group>";
+		};
+		9B16ACAE21B3B25C003D1B1F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C7F7921B3B78F00D18BD4 /* DoggyViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F510C0E7713105AB9C6FBF3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75868B164BF7113904689609 /* Pods_Doggygram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAED7D3DCB4564D8332A9A54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				115888A530693164612C3FFB /* Pods-Doggygram.debug.xcconfig */,
+				F1DF6AF030C42CB9DE579ACA /* Pods-Doggygram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B16AC9421B3B17F003D1B1F /* Doggygram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B16ACA721B3B181003D1B1F /* Build configuration list for PBXNativeTarget "Doggygram" */;
+			buildPhases = (
+				F05B0FB60AB14B86984607A8 /* [CP] Check Pods Manifest.lock */,
+				9B16AC9121B3B17F003D1B1F /* Sources */,
+				9B16AC9221B3B17F003D1B1F /* Frameworks */,
+				9B16AC9321B3B17F003D1B1F /* Resources */,
+				58665EF5BE15892861AF492C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Doggygram;
+			productName = Doggygram;
+			productReference = 9B16AC9521B3B17F003D1B1F /* Doggygram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B16AC8D21B3B17F003D1B1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Geektree0101;
+				TargetAttributes = {
+					9B16AC9421B3B17F003D1B1F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 9B16AC9021B3B17F003D1B1F /* Build configuration list for PBXProject "Doggygram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B16AC8C21B3B17F003D1B1F;
+			productRefGroup = 9B16AC9621B3B17F003D1B1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B16AC9421B3B17F003D1B1F /* Doggygram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B16AC9321B3B17F003D1B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B16ACB021B3B27D003D1B1F /* feed.json in Resources */,
+				9B16ACA321B3B181003D1B1F /* LaunchScreen.storyboard in Resources */,
+				9B16ACA021B3B181003D1B1F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58665EF5BE15892861AF492C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Doggygram/Pods-Doggygram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa-Texture/RxCocoa_Texture.framework",
+				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Vetty/Vetty.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa_Texture.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Vetty.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Doggygram/Pods-Doggygram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F05B0FB60AB14B86984607A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Doggygram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B16AC9121B3B17F003D1B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0C7F8921B3D13900D18BD4 /* UIImage+Extension.swift in Sources */,
+				9B16AC9B21B3B17F003D1B1F /* ViewController.swift in Sources */,
+				9B0C7F7E21B3BAB900D18BD4 /* FeedNodeController.swift in Sources */,
+				9B16AC9921B3B17F003D1B1F /* AppDelegate.swift in Sources */,
+				9B0C7F7A21B3B78F00D18BD4 /* DoggyViewModel.swift in Sources */,
+				9B0C7F8021B3BAC400D18BD4 /* DoggyShowNodeController.swift in Sources */,
+				9B0C7F8621B3BD2300D18BD4 /* DoggyCellNode.swift in Sources */,
+				9B0C7F8B21B3D3CC00D18BD4 /* LoadingIndicatorNode.swift in Sources */,
+				9B0C7F7621B3B69600D18BD4 /* Dog.swift in Sources */,
+				9B0C7F7821B3B69D00D18BD4 /* User.swift in Sources */,
+				9B0C7F8421B3BD1A00D18BD4 /* HelloDoggyCellNode.swift in Sources */,
+				9B0C7F7421B3B65400D18BD4 /* Service.swift in Sources */,
+				9B0D47E221C4B76400F39C94 /* ASDisplayNode+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B16ACA121B3B181003D1B1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B16ACA221B3B181003D1B1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B16ACA521B3B181003D1B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B16ACA621B3B181003D1B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B16ACA821B3B181003D1B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 115888A530693164612C3FFB /* Pods-Doggygram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTEXWEH4CZ;
+				INFOPLIST_FILE = Doggygram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Geektree0101.Doggygram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B16ACA921B3B181003D1B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1DF6AF030C42CB9DE579ACA /* Pods-Doggygram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTEXWEH4CZ;
+				INFOPLIST_FILE = Doggygram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Geektree0101.Doggygram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B16AC9021B3B17F003D1B1F /* Build configuration list for PBXProject "Doggygram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B16ACA521B3B181003D1B1F /* Debug */,
+				9B16ACA621B3B181003D1B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B16ACA721B3B181003D1B1F /* Build configuration list for PBXNativeTarget "Doggygram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B16ACA821B3B181003D1B1F /* Debug */,
+				9B16ACA921B3B181003D1B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B16AC8D21B3B17F003D1B1F /* Project object */;
+}
